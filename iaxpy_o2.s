@@ -14,7 +14,7 @@ main:
 	.set	noreorder
 	.cpload	$25
 	.set	nomacro
-	
+
 	lw	$6,%got(x)($28)
 	lw	$5,%got(y)($28)
 	addiu	$7,$6,400
